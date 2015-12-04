@@ -10,8 +10,9 @@ This package public variable  webixMongo
 ### Using
 #### Declare Database
  webixMongo.db("mongodb://localhost:27017/xemhai");
+ where as xemhai is Database
 #### Declare collections and api path
  webixMongo.addRoute('/api/flavors', webixMongo.crud("flavors"));
- 
+ where as flavors is collection
 That it! 
 
