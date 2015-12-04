@@ -1,7 +1,7 @@
 Package.describe({
     name: "baysao:meteor-webix-api",
     version: "0.1.0-1",
-    summary: "Meteor Webix",
+    summary: "Meteor Webix Rest API",
     git: "https://github.com/baysao/meteor-webix-api.git",
     documentation: "README.md"
 });
@@ -16,8 +16,8 @@ Npm.depends({
 Package.onUse(function (api) {
     api.versionsFrom("METEOR@1.1.0.2");
     api.use([
-        "simple:json-routes",
-        "simple:rest-bearer-token-parser",
+        "simple:json-routes@1.0.4",
+        "baysao:rest-bearer-token-parser@0.0.1",
     ])
     api.addFiles([
         "webix.js"
