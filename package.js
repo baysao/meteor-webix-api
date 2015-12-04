@@ -1,6 +1,6 @@
 Package.describe({
     name: "baysao:meteor-webix-api",
-    version: "0.1.0-1",
+    version: "0.1.0-2",
     summary: "Meteor Webix Rest API",
     git: "https://github.com/baysao/meteor-webix-api.git",
     documentation: "README.md"
