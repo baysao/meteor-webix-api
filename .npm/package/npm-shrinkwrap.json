@@ -77,6 +77,50 @@
         }
       }
     },
+    "mongodb": {
+      "version": "2.0.53",
+      "dependencies": {
+        "mongodb-core": {
+          "version": "1.2.30",
+          "dependencies": {
+            "bson": {
+              "version": "0.4.20"
+            }
+          }
+        },
+        "readable-stream": {
+          "version": "1.0.31",
+          "dependencies": {
+            "core-util-is": {
+              "version": "1.0.2"
+            },
+            "isarray": {
+              "version": "0.0.1"
+            },
+            "string_decoder": {
+              "version": "0.10.31"
+            },
+            "inherits": {
+              "version": "2.0.1"
+            }
+          }
+        },
+        "es6-promise": {
+          "version": "2.1.1"
+        },
+        "kerberos": {
+          "version": "0.0.17",
+          "dependencies": {
+            "nan": {
+              "version": "2.0.9"
+            }
+          }
+        }
+      }
+    },
+    "mongoskin": {
+      "version": "2.0.3"
+    },
     "webix-data": {
       "version": "https://github.com/baysao/nodejs-data/archive/f394aaaa237a3c82f026ff2c32528fe9fb65f5a2.tar.gz",
       "dependencies": {
