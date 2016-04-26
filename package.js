@@ -1,6 +1,6 @@
 Package.describe({
     name: "baysao:meteor-webix-api",
-    version: "0.1.0-4",
+    version: "0.1.0-7",
     summary: "Meteor Webix Rest API",
     git: "https://github.com/baysao/meteor-webix-api.git",
     documentation: "README.md"
@@ -9,8 +9,8 @@ Package.describe({
 Npm.depends({
     "body-parser": "1.14.1",
     "mongoskin":"2.0.3",
-    "webix-data": "https://github.com/baysao/nodejs-data/archive/f394aaaa237a3c82f026ff2c32528fe9fb65f5a2.tar.gz",
-    "webix-mongo": "https://github.com/baysao/nodejs-mongo/archive/ab0991d03b20d0ea541ee73beab1fe5bf61219f8.tar.gz",
+    "webix-data": "https://github.com/baysao/nodejs-data/archive/0c228713f59806ac7b8ea7c321d6cd3d8bc5887e.tar.gz",
+    "webix-mongo": "https://github.com/baysao/nodejs-mongo/archive/678d46e89645e53c863a2c4946a49c3776aa524e.tar.gz",
     "webix-request": "https://github.com/baysao/nodejs-request/archive/3605adf68bb65c2261f645a933837a0f07606482.tar.gz"
 });
 
